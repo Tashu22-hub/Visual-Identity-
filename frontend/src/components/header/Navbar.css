@@ -1,0 +1,558 @@
+@import url("https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap");
+::-webkit-scrollbar{
+width: 14px;
+}
+::-webkit-scrollbar-track{
+background-color: beige;
+}
+::-webkit-scrollbar-thumb{
+background-color: #f1a868;
+}
+
+/* Base styles for all devices */
+.anims {
+  opacity: 0;
+  transform: translateY(-30px);
+  animation: moveDown 0.5s linear forwards;
+}
+@keyframes moveDown {
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+html {
+  overflow-x: hidden;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("https://cdn.pixabay.com/photo/2023/08/09/19/47/ai-generated-8180209_960_720.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* Navbar styles */
+.navbar {
+  backdrop-filter: blur(50px);
+  background-color: rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  transition: height 0.2s ease, background-color 0.3s ease;
+}
+.navbar-items {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 0;
+  list-style: none;
+  margin-top: 0px;
+  padding-top: 30px;
+  /* padding-bottom: 10px; */
+  backdrop-filter: blur(50px);
+}
+.navbar ul#Open {
+  display: flex;
+  height: 240px;
+}
+.navbar-items > li {
+  padding: 10px 0px;
+}
+.navbar-item {
+  font-family: "Protest Riot";
+  font-size: 20px;
+  color: beige;
+  text-decoration: none;
+  cursor: pointer;
+}
+#Contacts {
+  animation-delay: 1s;
+  color: beige;
+  text-decoration: none;
+  margin-top: 20px;
+  font-size: 16px;
+  padding: 16px 36px;
+  border-radius: 10px;
+  backdrop-filter: blur(50px);
+  box-shadow: inset 0px 5px 10px 0px rgba(0, 255, 255, 0.7);
+  transition: all ease 0.2s;
+  border: 1px solid beige;
+  font-family: "Protest Riot";
+}
+#Contacts:hover {
+  transform: translateY(5px);
+  box-shadow: inset 0px 10px 20px 2px rgba(0, 255, 255, 0.7);
+  cursor: pointer;
+}
+.navbar-item:focus {
+  color: #f1a868;
+}
+.navbar .Menu {
+  display: flex;
+  position: absolute;
+  top: 0rem;
+  right: 0.75rem;
+  width: 3rem;
+  height: 2rem;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.navbar .Menu .Threelines {
+  height: 6rem;
+  width: 100%;
+  color: beige;
+  border-radius: 0.2rem;
+}
+.navbar .Menu .Cross {
+  height: 1.75rem;
+  margin-top: 30px;
+  width: 100%;
+  color: beige;
+  border-radius: 0.2rem;
+}
+#Port {
+  /* z-index: 100; */
+  display: none;
+  /* position: absolute;
+  top: 1.75rem;
+  left: 2rem;
+  font-size: 35px;
+  color: beige;
+  text-decoration: none;
+  font-family: "Protest Riot"; */
+}
+
+/* Media queries for different screen sizes */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .navbar-items {
+    flex-direction: column;
+  }
+  .navbar-item {
+    font-size: 20px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .navbar-items {
+    flex-direction: column;
+  }
+  .navbar-item {
+    font-size: 20px;
+  }
+}/* Medium devices (landscape tablets, 768px and up to 991px) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .navbar {
+    backdrop-filter: blur(50px);
+    background-color: rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    transition: height 0.2s ease, background-color 0.3s ease;
+  }
+  .navbar-items {
+    flex-direction: row;
+    justify-content: space-around;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 10px;
+  }
+  .navbar-item {
+    font-family: "Protest Riot";
+    font-size: 17px;
+    color: beige;
+    text-decoration: none;
+    position: relative; /* Added for positioning the underline */
+    cursor: pointer;
+  }
+  #Portfolio {
+    font-size: 35px;
+  }
+  #Portfolio::after {
+    content: "";
+    height: 4px;
+    width: 0;
+    background: #f1a868;
+    position: absolute;
+    bottom: -12px;
+    left: 8%;
+    transition: 0.5s;
+  }
+  #Portfolio:hover:after {
+    width: 15.5%;
+  }
+  #AboutMe::after {
+    content: "";
+    height: 3px;
+    width: 0;
+    background: #f1a868;
+    position: absolute;
+    bottom: -7px;
+    left: 31%;
+    transition: 0.5s;
+  }
+  #AboutMe:hover:after {
+    width: 9%;
+  }
+  #Skills::after {
+    content: "";
+    height: 3px;
+    width: 0;
+    background: #f1a868;
+    position: absolute;
+    bottom: -7px;
+    left: 46.5%;
+    transition: 0.5s;
+  }
+  #Skills:hover:after {
+    width: 7%;
+  }
+  
+  .portfoliohide {
+    display: flex;
+    visibility: visible;
+  }
+  #Contacts {
+    background: none;
+  }
+  .navbar .Menu {
+    display: none;
+  }
+  #Port {
+    display: none;
+  }
+}/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .anims {
+    opacity: 0;
+    transform: translateY(-30px);
+    animation: moveDown 0.5s linear forwards;
+  }
+  @keyframes moveDown {
+    100% {
+      opacity: 1;
+      transform: translateY(0px);
+    }
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url("https://cdn.pixabay.com/photo/2023/08/09/19/47/ai-generated-8180209_960_720.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-x: hidden;
+  }
+  .navbar {
+    padding-top: 15px;
+    backdrop-filter: blur(0px);
+  }
+  .navbar-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+  }
+  .navbar-item {
+    font-family: "Protest Riot";
+    font-size: 18px;
+    color: beige;
+    text-decoration: none;
+    position: relative;
+  }
+  .navbar-item:focus {
+    color: #f1a868;
+  }
+  #Portfolio {
+    font-size: 35px;
+  }
+  #Portfolio::after{
+    content: "";
+    height: 4px;
+    width: 0;
+    background: #f1a868;
+    position: absolute;
+    bottom: -5px;
+    left: 20%;
+    transition: 0.5s;
+  }
+  #Portfolio:hover:after{
+    width: 15%;
+  }
+
+  #AboutMe::after {
+    content: "";
+    height: 3px;
+    width: 0;
+    background: #f1a868;
+    position: absolute;
+    left: 60%;
+    bottom: -5px;
+    transition: 0.5s;
+  }
+  #AboutMe:hover:after {
+    width: 9%;
+  }
+  #Skills::after {
+    content: "";
+    height: 3px;
+    width: 0;
+    background: #f1a868;
+    position: absolute;
+    left: 46.8%;
+    bottom: -5px;
+    transition: 0.5s;
+  }
+  #Skills:hover:after {
+    width: 6.5%;
+  }
+  
+  #Contacts {
+    background: none;
+  }
+  .navbar .Menu {
+    display: none;
+    position: absolute;
+    top: 0rem;
+    right: 0.75rem;
+    width: 3rem;
+    height: 2rem;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .navbar .Menu .Threelines {
+    height: 5rem;
+    width: 100%;
+    color: beige;
+    /* background-color: #fff; */
+    border-radius: 0.2rem;
+  }
+  #port{
+    display: none;
+  }
+ 
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .anims {
+    opacity: 0;
+    transform: translateY(-30px);
+    animation: moveDown 0.5s linear forwards;
+  }
+  @keyframes moveDown {
+    100% {
+      opacity: 1;
+      transform: translateY(0px);
+    }
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url("https://cdn.pixabay.com/photo/2023/08/09/19/47/ai-generated-8180209_960_720.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-x: hidden;
+  }
+  .navbar {
+    backdrop-filter: blur(50px);
+    background-color: rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    transition: height 0.2s ease, background-color 0.3s ease;
+  }
+  .navbar-items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+  }
+  .navbar-item {
+    font-family: "Protest Riot";
+    font-size: 17px;
+    color: beige;
+    text-decoration: none;
+  }
+  .navbar-item:focus {
+    color: #f1a868;
+  }
+  #Portfolio {
+    display: flex;
+    font-size: 35px;
+  }
+  #Contacts {
+    background: none;
+  }
+  #Portfolio::after {
+    content: "";
+    height: 4px;
+    width: 0;
+    background: #f1a868;
+    position: absolute;
+    bottom: -15px;
+    left: 8.5%;
+    transition: 0.5s;
+  }
+  #Portfolio:hover:after {
+    width: 11.5%;
+  }
+  #AboutMe::after {
+    content: "";
+    height: 3px;
+    width: 0;
+    background: #f1a868;
+    position: absolute;
+    left: 30.6%;
+    bottom: -7px;
+    transition: 0.5s;
+  }
+  #AboutMe:hover:after {
+    width: 6.5%;
+  }
+  #Skills::after {
+    content: "";
+    height: 3px;
+    width: 0;
+    background: #f1a868;
+    position: absolute;
+    left: 48%;
+    bottom: -7px;
+    transition: 0.5s;
+  }
+  #Skills:hover:after {
+    width: 4%;
+  }
+  
+  .navbar .Menu {
+    display: none;
+  }
+  #Port {
+    display: none;
+  }
+}
+
+/* Extra extra large devices (1300px and up) */
+@media only screen and (min-width: 1300px){
+  .anims {
+    opacity: 0;
+    transform: translateY(-30px);
+    animation: moveDown 0.5s linear forwards;
+  }
+  @keyframes moveDown {
+    100% {
+      opacity: 1;
+      transform: translateY(0px);
+    }
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url("https://cdn.pixabay.com/photo/2023/08/09/19/47/ai-generated-8180209_960_720.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-x: hidden;
+  }
+  .navbar {
+    backdrop-filter: blur(50px);
+    background-color: rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    transition: height 0.2s ease, background-color 0.3s ease;
+  }
+  .navbar-items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+  }
+  .navbar-item {
+    font-family: "Protest Riot";
+    font-size: 17px;
+    color: beige;
+    text-decoration: none;
+  }
+  .navbar-item:focus {
+    color: #f1a868;
+  }
+  #Portfolio {
+    display: flex;
+    font-size: 40px;
+  }
+  #Contacts {
+    background: none;
+  }
+  #Portfolio::after {
+    content: "";
+    height: 4px;
+    width: 0;
+    background: #f1a868;
+    position: absolute;
+    bottom: -20px;
+    left: 8.5%;
+    transition: 0.5s;
+  }
+  #Portfolio:hover:after {
+    width: 11%;
+  }
+  #AboutMe::after {
+    content: "";
+    height: 3px;
+    width: 0;
+    background: #f1a868;
+    position: absolute;
+  }
+  #Skills::after {
+    content: "";
+    height: 3px;
+    width: 0;
+    background: #f1a868;
+    position: absolute;
+    left: 49%;
+    bottom: -7px;
+    transition: 0.5s;
+  }
+  #Skills:hover:after {
+    width: 3.5%;
+  }
+  
+  .navbar .Menu {
+    display: none;
+    position: absolute;
+    top: 0rem;
+    right: 0.75rem;
+    width: 3rem;
+    height: 2rem;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .navbar .Menu .Threelines {
+    height: 5rem;
+    width: 100%;
+    color: beige;
+    /* background-color: #fff; */
+    border-radius: 0.2rem;
+  }
+  #Port {
+    display: none;
+  }
+}

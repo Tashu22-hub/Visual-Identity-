@@ -1,0 +1,257 @@
+@import url("https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap");
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 600px) {
+
+  .footer-border {
+    backdrop-filter: blur(5px);
+    margin-top: 50px;
+    padding-top: 5px;
+    background: transparent;
+    border-top:1px solid beige;
+  }
+  .footer-rows {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0px 0px;
+    background: transparent;
+   
+  }
+  .footer-row-1 {
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+  .footer-icons {
+    padding: 0px 30px;
+    color: #f0e0d2;
+    font-size: 45px;
+    margin: auto;
+    list-style: none;
+  }
+  .ul-items {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    list-style: none;
+  }
+
+  .ul-items > li {
+    margin-top: 20px;
+  }
+  .ul-items .li-item {
+    text-decoration: none;
+    color: #f0e0d2;
+    font-family: "Protest Riot";
+    letter-spacing: 3px;
+    font-size: 18px;
+  }
+  .Copyright {
+    text-align: center;
+    color: beige;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-size: 14px;
+    padding: 30px;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .footer-border {
+    backdrop-filter: blur(5px);
+    margin-top: 50px;
+    padding-top: 5px;
+    background: transparent;
+    border-top:1px solid beige;
+  }
+  .footer-rows {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: transparent;
+  }
+  .footer-row-1 {
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+  .footer-icons {
+    padding: 0px 40px;
+    color: #f0e0d2;
+    font-size: 45px;
+    margin: auto;
+    list-style: none;
+  }
+  .ul-items {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    list-style: none;
+    
+  }
+
+  .ul-items > li {
+    margin-top: 20px;
+  }
+  .ul-items .li-item {
+    text-decoration: none;
+    color: #f0e0d2;
+    font-family: "Protest Riot";
+    letter-spacing: 3px;
+    font-size: 18px;
+  }
+  .Copyright {
+    text-align: center;
+    color: beige;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-size: 16px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .footer-border {
+    backdrop-filter: blur(5px);
+    /* margin-top: 50px; */
+    /* padding-top: 5px; */
+    background: transparent;
+    border-top:1px solid beige;
+  }
+  .footer-rows {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+padding: 0px 0px;
+    background: transparent;
+  }
+  .footer-icons {
+    padding: 0px 40px;
+    color: #f0e0d2;
+    font-size: 47px;
+    margin: auto;
+    list-style: none;
+  }
+  .ul-items {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+  }
+  .ul-items .li-item {
+    text-decoration: none;
+    color: #f0e0d2;
+    font-family: "Protest Riot";
+    letter-spacing: 3px;
+    font-size: 18px;
+  }
+  .Copyright {
+    text-align: center;
+    color: beige;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-size: 18px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .footer-border {
+    backdrop-filter: blur(5px);
+    margin-top: 50px;
+    padding-top: 5px;
+    background: transparent;
+   border-top:1px solid beige;
+  }
+  .footer-rows {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px;
+    text-align: center;
+   background: transparent;
+  }
+  .footer-row-1 {
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+  .footer-icons {
+    padding: 0px 40px;
+    color: #f0e0d2;
+    font-size: 50px;
+    margin: auto;
+    list-style: none;
+  }
+  .ul-items {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    list-style: none;
+  }
+  .ul-items .li-item {
+    text-decoration: none;
+    color: #f0e0d2;
+    font-family: "Protest Riot";
+    letter-spacing: 3px;
+    font-size: 18px;
+  }
+  .Copyright {
+    text-align: center;
+    color: beige;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-size: 20px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .footer-border {
+    backdrop-filter: blur(5px);
+    margin-top: 50px;
+    padding-top: 3px;
+   background: transparent;
+   border-top:1px solid beige;
+  }
+  .footer-rows {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+   padding: 0px 0px;
+   background: transparent;
+  }
+  .footer-row-1 {
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+  .footer-icons {
+    padding: 0px 40px;
+    color: #f0e0d2;
+    font-size: 50px;
+    margin: auto;
+    list-style: none;
+  }
+  .ul-items {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    list-style: none;
+  }
+  .ul-items .li-item {
+    text-decoration: none;
+    color: #f0e0d2;
+    font-family: "Protest Riot";
+    letter-spacing: 3px;
+    font-size: 18px;
+  }
+  .Copyright {
+    text-align: center;
+    color: beige;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-size: 20px;
+    padding-bottom:10px;
+  }
+}

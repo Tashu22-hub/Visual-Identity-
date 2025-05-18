@@ -1,0 +1,1125 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .Portfolio-section {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin-top: 60px;
+      flex-wrap: wrap;
+    }
+    .my-img {
+      border-radius: 50%;
+      box-shadow: 10px 10px 10px 0px rgba(0, 255, 255, 0.7);
+      transition: all ease 0.2s;
+      margin-top: 50px;
+      height: 350px;
+    }
+    .my-img .anim {
+      animation-delay: 1.5s;
+    }
+    .Portfolio-Text > h1 {
+      color: beige;
+      font-family: "Protest Riot";
+      line-height: 65px;
+      letter-spacing: 4px;
+      font-size: 40px;
+      animation-delay: 0.5s;
+    }
+    .Portfolio-Text > h1 > span {
+      color: #f1a868;
+    }
+    .Portfolio-Text > button {
+      background: none;
+      border: none;
+      font-family: "Protest Riot";
+      margin-bottom: 40px;
+    }
+    .Portfolio-Text > button:focus {
+      cursor: pointer;
+      background-color: #fff;
+    }
+    .model-div {
+      width: 500px;
+      height: 370px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden; /* Prevents model from overflowing */
+      /* border: 2px solid rgba(255, 255, 255, 0.2); Optional styling */
+    }
+    #Contact {
+      animation-delay: 1s;
+      color: beige;
+      text-decoration: none;
+      font-size: 14px;
+      padding: 13px 26px;
+      border-radius: 10px;
+      backdrop-filter: blur(50px);
+      box-shadow: inset 0px 5px 10px 0px rgba(0, 255, 255, 0.7);
+      transition: all ease 0.2s;
+      border: 1px solid beige;
+    }
+    #Contact:hover {
+      transform: translateY(5px);
+      box-shadow: inset 0px 10px 20px 2px rgba(0, 255, 255, 0.7);
+      cursor: pointer;
+    }
+    .anim {
+      opacity: 0;
+      transform: translateY(30px);
+      animation: moveup 0.5s linear forwards;
+    }
+    @keyframes moveup {
+      100% {
+        opacity: 1;
+        transform: translateY(0px);
+      }
+    }
+    .animation {
+      opacity: 0;
+      transform: translateX(30px);
+      animation: moveleft 0.5s linear forwards;
+    }
+    @keyframes moveleft {
+      100% {
+        opacity: 1;
+        transform: translateX(0px);
+      }
+    }
+    .animationss {
+      opacity: 0;
+      transform: translateX(-30px);
+      animation: moveleft 0.5s linear forwards;
+    }
+    @keyframes moveleft {
+      100% {
+        opacity: 1;
+        transform: translateX(0px);
+      }
+    }
+    .Project {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+    .Project > h1 {
+      color: beige;
+      text-align: center;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      font-size: 40px;
+      margin-top: 100px;
+    }
+  
+    .Projectes {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      border-radius: 40px;
+      margin: 30px 20px;
+      padding: 5px;
+      border: 2px solid beige;
+      backdrop-filter: blur(10px);
+      box-shadow: 0px 5px 10px 0px rgba(0, 255, 255, 0.7);
+      transition: all ease 0.2s;
+    }
+    .Projectes:hover {
+      transform: translateY(-5px);
+      box-shadow: 0px 10px 20px 2px rgba(0, 255, 255, 0.7);
+    }
+    .Projects-Detail {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 40px 0px;
+      border-radius: 40px;
+    }
+    .Projects-Detail > h4 {
+      color: beige;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      font-size: 25px;
+    }
+    .Projects-Detail > p {
+      color: #f0e0d2;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      width: 85%;
+      line-height: 25px;
+      font-size: 14px;
+      text-align: center;
+    }
+    .Projects-Detail .Lower-button {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 70%;
+    }
+    .Projects-Detail > div > button {
+      border: none;
+      background-color: transparent;
+      margin: 3px 10px;
+    }
+    .Projects-Detail > div > button .Project-buttons {
+      color: beige;
+      font-size: 14px;
+      text-decoration: none;
+      font-weight: 600;
+      margin-top: 20px;
+    }
+    .Projects-Detail > div > button .Project-button {
+      color: beige;
+      text-decoration: none;
+      margin-top: 20px;
+      font-size: 16px;
+      font-weight: 600;
+    }
+    .project-icons {
+      font-size: 27px;
+    }
+    .iframe {
+      display: none;
+    }
+  }
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .Portfolio-section {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+    }
+  
+    .my-img {
+      border-radius: 50%;
+      height: 350px;
+      box-shadow: 10px 10px 10px 0px rgba(0, 255, 255, 0.7);
+      transition: all ease 0.2s;
+    }
+    .my-img .anim {
+      animation-delay: 1.5s;
+    }
+    .Portfolio-Text > h1 {
+      color: beige;
+      font-family: "Protest Riot";
+      line-height: 55px;
+      letter-spacing: 4px;
+      font-size: 45px;
+      animation-delay: 0.5s;
+    }
+    .Portfolio-Text > h1 > span {
+      color: #f1a868;
+    }
+    .Portfolio-Text > button {
+      background: none;
+      border: none;
+      margin-bottom: 100px;
+      font-family: "Protest Riot";
+    }
+    .Portfolio-Text > button:focus {
+      cursor: pointer;
+      background-color: #fff;
+    }
+    .model-div {
+      width: 500px;
+      height: 370px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden; /* Prevents model from overflowing */
+      /* border: 2px solid rgba(255, 255, 255, 0.2); Optional styling */
+    }
+    #Contact {
+      animation-delay: 1s;
+      color: beige;
+      text-decoration: none;
+      font-size: 16px;
+      padding: 14px 28px;
+      border-radius: 10px;
+      backdrop-filter: blur(50px);
+      box-shadow: inset 0px 5px 10px 0px rgba(0, 255, 255, 0.7);
+      transition: all ease 0.2s;
+      border: 1px solid beige;
+    }
+    #Contact:hover {
+      transform: translateY(5px);
+      box-shadow: inset 0px 10px 20px 2px rgba(0, 255, 255, 0.7);
+      cursor: pointer;
+    }
+    .anim {
+      opacity: 0;
+      transform: translateY(30px);
+      animation: moveup 0.5s linear forwards;
+    }
+    @keyframes moveup {
+      100% {
+        opacity: 1;
+        transform: translateY(0px);
+      }
+    }
+    .animation {
+      opacity: 0;
+      transform: translateX(30px);
+      animation: moveleft 0.5s linear forwards;
+    }
+    @keyframes moveleft {
+      100% {
+        opacity: 1;
+        transform: translateX(0px);
+      }
+    }
+    .animationss {
+      opacity: 0;
+      transform: translateX(-30px);
+      animation: moveleft 0.5s linear forwards;
+    }
+    @keyframes moveleft {
+      100% {
+        opacity: 1;
+        transform: translateX(0px);
+      }
+    }
+    .Project {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+    .Project > h1 {
+      color: beige;
+      text-align: center;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      font-size: 40px;
+      margin-top: 100px;
+    }
+  
+    .Projectes {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      border-radius: 40px;
+      margin: 20px 20px;
+      padding: 5px;
+      border: 2px solid beige;
+      backdrop-filter: blur(10px);
+      box-shadow: 0px 5px 10px 0px rgba(0, 255, 255, 0.7);
+      transition: all ease 0.2s;
+    }
+    .Projectes:hover {
+      transform: translateY(-5px);
+      box-shadow: 0px 10px 20px 2px rgba(0, 255, 255, 0.7);
+    }
+    .Projects-Detail {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 40px 0px;
+      border-radius: 40px;
+    }
+    .Projects-Detail > h4 {
+      color: beige;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      font-size: 25px;
+    }
+    .Projects-Detail > p {
+      color: #f0e0d2;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      width: 85%;
+      line-height: 24px;
+      font-size: 16px;
+      text-align: center;
+    }
+    .Projects-Detail .Lower-button {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 70%;
+    }
+    .Projects-Detail > div > button {
+      border: none;
+      background-color: transparent;
+      margin: 7px 10px;
+    }
+    .Projects-Detail > div > button .Project-buttons {
+      color: beige;
+      font-size: 16px;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .Projects-Detail > div > button .Project-button {
+      color: beige;
+      text-decoration: none;
+      font-size: 17px;
+      font-weight: 600;
+    }
+    .project-icons {
+      font-size: 25px;
+    }
+    .iframe {
+      display: none;
+    }
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .Portfolio-section {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      margin: 0px 20px;
+    }
+    .my-img {
+      border-radius: 50%;
+      height: 300px;
+      box-shadow: 10px 10px 10px 0px rgba(0, 255, 255, 0.7);
+      transition: all ease 0.2s;
+    }
+    .my-img .anim {
+      animation-delay: 1.5s;
+    }
+    .Portfolio-Text > h1 {
+      color: beige;
+      font-family: "Protest Riot";
+      line-height: 60px;
+      letter-spacing: 4px;
+      font-size: 47px;
+      animation-delay: 0.5s;
+    }
+    .Portfolio-Text > h1 > span {
+      color: #f1a868;
+    }
+    .Portfolio-Text > button {
+      background: none;
+      border: none;
+      font-family: "Protest Riot";
+    }
+    .Portfolio-Text > button:focus {
+      cursor: pointer;
+      background-color: #fff;
+    }
+    .model-div {
+      width: 500px;
+      height: 370px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden; /* Prevents model from overflowing */
+      /* border: 2px solid rgba(255, 255, 255, 0.2); Optional styling */
+    }
+    #Contact {
+      animation-delay: 1s;
+      color: beige;
+      text-decoration: none;
+      font-size: 16px;
+      padding: 15px 30px;
+      border-radius: 10px;
+      backdrop-filter: blur(50px);
+      box-shadow: inset 0px 5px 10px 0px rgba(0, 255, 255, 0.7);
+      transition: all ease 0.2s;
+      border: 1px solid beige;
+    }
+    #Contact:hover {
+      transform: translateY(5px);
+      box-shadow: inset 0px 10px 20px 2px rgba(0, 255, 255, 0.7);
+      cursor: pointer;
+    }
+    .anim {
+      opacity: 0;
+      transform: translateY(30px);
+      animation: moveup 0.5s linear forwards;
+    }
+    @keyframes moveup {
+      100% {
+        opacity: 1;
+        transform: translateY(0px);
+      }
+    }
+  
+    .animation {
+      opacity: 0;
+      transform: translateX(30px);
+      animation: moveleft 0.5s linear forwards;
+    }
+    @keyframes moveleft {
+      100% {
+        opacity: 1;
+        transform: translateX(0px);
+      }
+    }
+    .animationss {
+      opacity: 0;
+      transform: translateX(-30px);
+      animation: moveleft 0.5s linear forwards;
+    }
+    @keyframes moveleft {
+      100% {
+        opacity: 1;
+        transform: translateX(0px);
+      }
+    }
+    .Project {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+    .Project > h1 {
+      color: beige;
+      text-align: center;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      letter-spacing: 1px;
+      font-size: 40px;
+      margin-top: 80px;
+    }
+  
+    .Projects {
+      display: flex;
+      /* flex-direction: column; */
+      align-items: center;
+      justify-content: space-around;
+      border-radius: 40px;
+      margin: 30px 20px;
+      padding: 5px;
+      border: 2px solid beige;
+      backdrop-filter: blur(10px);
+      box-shadow: 0px 5px 10px 0px rgba(0, 255, 255, 0.7);
+      transition: all ease 0.2s;
+    }
+    .Projects-Detail {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 40px 0px;
+      border-radius: 40px;
+    }
+  
+    .Projects-Detail > h4 {
+      color: beige;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      font-size: 25px;
+      letter-spacing: 3px;
+    }
+    .Projects-Detail > p {
+      color: #f0e0d2;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      width: 85%;
+      line-height: 25px;
+      font-size: 17px;
+      text-align: center;
+    }
+    .Projects-Detail .Lower-button {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 80%;
+    }
+    .Projects-Detail > div > button {
+      border: none;
+      background-color: transparent;
+      margin: 3px 10px;
+    }
+    .Projects-Detail > div > button .Project-buttons {
+      color: beige;
+      font-size: 17px;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .Projects-Detail > div > button .Project-button {
+      color: beige;
+      text-decoration: none;
+      font-size: 19px;
+      font-weight: 600;
+    }
+    .project-icons {
+      font-size: 30px;
+    }
+    .iframe {
+      display: none;
+    }
+  }
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .Portfolio-section {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around; 
+      align-items: center;
+      margin-top: 30px;
+    }
+  
+    .my-img {
+      border-radius: 50%;
+      height: 300px;
+      box-shadow: 10px 10px 10px 0px rgba(0, 255, 255, 0.7);
+      transition: all ease 0.2s;
+    }
+    .my-img .anim {
+      animation-delay: 1.5s;
+    }
+    .Portfolio-Text > h1 {
+      color: beige;
+      font-family: "Protest Riot";
+      line-height: 80px;
+      letter-spacing: 10px;
+      font-size: 47px;
+      animation-delay: 0.5s;
+      margin-top: 60px;
+    }
+    .Portfolio-Text > h1 > span {
+      color: #f1a868;
+    }
+    .Portfolio-Text > button {
+      background: none;
+      line-height: 80px;
+      border: none;
+      font-family: "Protest Riot";
+    }
+    .Portfolio-Text > button:focus {
+      cursor: pointer;
+      background-color: #fff;
+    }
+    .model-div {
+      width: 500px;
+      height: 370px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden; /* Prevents model from overflowing */
+      /* border: 2px solid rgba(255, 255, 255, 0.2); Optional styling */
+    }
+    #Contact {
+      animation-delay: 0s;
+      color: beige;
+      text-decoration: none;
+      font-size: 16px;
+      padding: 15px 30px;
+      border-radius: 10px;
+      backdrop-filter: blur(50px);
+      box-shadow: inset 0px 5px 10px 0px rgba(0, 255, 255, 0.7);
+      transition: all ease 0.2s;
+      border: 1px solid beige;
+    }
+    #Contact:hover {
+      transform: translateY(5px);
+      box-shadow: inset 0px 10px 20px 2px rgba(0, 255, 255, 0.7);
+      cursor: pointer;
+    }
+    #Contact{
+      opacity: 0;
+      transform:translateY(20px) ;
+      animation: moveup 0.1s linear forwards;
+    }
+    @keyframes moveup {
+      100% {
+        opacity: 1;
+        transform: translateY(0px);
+      }
+    }
+    .anim {
+      opacity: 0;
+      transform: translateY(30px);
+      animation: moveup 0.5s linear forwards;
+    }
+    @keyframes moveup {
+      100% {
+        opacity: 1;
+        transform: translateY(0px);
+      }
+    }
+    .animation {
+      opacity: 0;
+      transform: translateX(30px);
+      animation: moveleft 0.5s linear forwards;
+    }
+    @keyframes moveleft {
+      100% {
+        opacity: 1;
+        transform: translateX(0px);
+      }
+    }
+    .animationss {
+      opacity: 0;
+      transform: translateX(-30px);
+      animation: moveleft 0.5s linear forwards;
+    }
+    @keyframes moveleft {
+      100% {
+        opacity: 1;
+        transform: translateX(0px);
+      }
+    }
+    .Project {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+    }
+    .Project > h1 {
+      color: beige;
+      text-align: center;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      letter-spacing: 1px;
+      font-size: 40px;
+      margin-top: 100px;
+    }
+    .Projects {
+      border: none;
+      backdrop-filter: none;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      margin: 30px 20px;
+      box-shadow: none;
+      transition: none;
+    }
+    .Projects:hover {
+      transform: none;
+      box-shadow: none;
+    }
+    .Projects-Detail {
+      width: 40%;
+      background: none;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      box-shadow: 0px 5px 10px 0px rgba(0, 255, 255, 0.7);
+      transition: all ease 0.2s;
+    }
+    .Projects-Detail > h4 {
+      color: beige;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      font-size: 23px;
+      letter-spacing: 3px;
+      margin-bottom: 15px;
+    }
+    .Projects-Detail > p {
+      color: #f0e0d2;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      width: 85%;
+      line-height: 25px;
+      font-size: 17px;
+      text-align: center;
+      margin-top: 0;
+    }
+    .Projects-Detail .Lower-button {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 80%;
+    }
+    .Projects-Detail > div > button {
+      border: none;
+      background-color: transparent;
+      margin: 3px 10px;
+    }
+    .Projects-Detail > div > button .Project-buttons {
+      color: beige;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .Projects-Detail > div > button .Project-button {
+      color: beige;
+      text-decoration: none;
+      font-size: 17px;
+      font-weight: 600;
+    }
+    .project-icons {
+      font-size: 27px;
+    }
+    .iframe {
+      display: flex;
+      width: 500px;
+      height: 250px;
+      border-radius: 30px;
+      border: 5px solid rgb(15, 15, 73);
+    }
+  }
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .Portfolio-section {
+      margin-top: 100px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      margin-top: 80px;
+    }
+  
+    .my-img {
+      border-radius: 50%;
+      height: 300px;
+      box-shadow: 10px 10px 10px 0px rgba(0, 255, 255, 0.7);
+      transition: all ease 0.2s;
+    }
+    .my-img .anim {
+      animation-delay: 1.5s;
+    }
+    .Portfolio-Text > h1 {
+      color: beige;
+      font-family: "Protest Riot";
+      line-height: 70px;
+      letter-spacing: 10px;
+      font-size: 50px;
+      animation-delay: 0.5s;
+    }
+    .Portfolio-Text > h1 > span {
+      color: #f1a868;
+    }
+    .Portfolio-Text > h1 .hello {
+      color: beige;
+      height: 50px;
+    }
+    .Portfolio-Text > button {
+      border: none;
+      background: none;
+      font-family: "Protest Riot";
+    }
+    .Portfolio-Text > button:focus {
+      cursor: pointer;
+      background-color: #fff;
+    }
+    .model-div {
+      position: relative;
+      width: 500px;
+      height: 370px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden; /* Prevents model from overflowing */
+      background: url("/assets/bg-image.jpg") no-repeat center center;
+      background-size: cover; /* Ensures background fills the div */
+    }
+    
+    
+    #Contact {
+      animation-delay: 1s;
+      color: beige;
+      text-decoration: none;
+      font-size: 16px;
+      padding: 16px 36px;
+      border-radius: 10px;
+      backdrop-filter: blur(50px);
+      box-shadow: inset 0px 5px 10px 0px rgba(0, 255, 255, 0.7);
+      transition: all ease 0.2s;
+      border: 1px solid beige;
+    }
+    #Contact:hover {
+      transform: translateY(5px);
+      box-shadow: inset 0px 10px 20px 2px rgba(0, 255, 255, 0.7);
+      cursor: pointer;
+    }
+    .anim {
+      opacity: 0;
+      transform: translateY(30px);
+      animation: moveup 0.5s linear forwards;
+    }
+    @keyframes moveup{
+      100% {
+        opacity: 1;
+        transform: translateY(0px);
+      }
+    }
+    .animation {
+      opacity: 0;
+      transform: translateX(30px);
+      animation: moveleft 0.5s linear forwards;
+    }
+    @keyframes moveleft {
+      100% {
+        opacity: 1;
+        transform: translateX(0px);
+      }
+    }
+    .animationss {
+      opacity: 0;
+      transform: translateX(-30px);
+      animation: moveleft 0.5s linear forwards;
+    }
+    @keyframes moveleft {
+      100% {
+        opacity: 1;
+        transform: translateX(0px);
+      }
+    }
+    .Project {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+    .Project > h1 {
+      color: beige;
+      text-align: center;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      letter-spacing: 1px;
+      font-size: 50px;
+      margin-top: 100px;
+    }
+  
+    .Projects-Detail {
+      width: 40%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: none;
+      box-shadow: 0px 5px 10px 0px rgba(0, 255, 255, 0.7);
+      transition: all ease 0.2s;
+    }
+    .Projects-Detail > h4 {
+      color: beige;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      font-size: 30px;
+      letter-spacing: 5px;
+      margin-bottom: 40px;
+    }
+    .Projects-Detail > p {
+      color: #f0e0d2;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      width: 80%;
+      line-height: 25px;
+      font-size: 17px;
+      text-align: center;
+    }
+    .Projects-Detail .Lower-button {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 90%;
+    }
+    .Projects-Detail > div > button {
+      border: none;
+      background-color: transparent;
+      margin: 10px 10px;
+    }
+    .Projects-Detail > div > button .Project-buttons {
+      color: beige;
+      text-decoration: none;
+      font-size: 17px;
+      font-weight: 600;
+    }
+    .Projects-Detail > div > button .Project-button {
+      color: beige;
+      text-decoration: none;
+      font-size: 19px;
+      font-weight: 600;
+    }
+    .project-icons {
+      font-size: 30px;
+    }
+    .Projects {
+      margin-top: 30px;
+      margin-bottom: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      background: none;
+    }
+    .iframe {
+      display: flex;
+      height: 300px;
+      width: 600px;
+      border: 5px solid rgb(15, 15, 73);
+      border-radius: 20px;
+    }
+  }
+  @media only screen and (min-width: 1300px) {
+    .Portfolio-section {
+      margin-top: 100px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      margin-top: 70px;
+    }
+  
+    .my-img {
+      height: 350px;
+      box-shadow: 10px 10px 10px 0px rgba(0, 255, 255, 0.7);
+      transition: all ease 0.2s;
+      border-radius: 50%;
+    }
+    .my-img .anim {
+      animation-delay: 1.5s;
+    }
+    .Portfolio-Text > h1 {
+      color: beige;
+      font-family: "Protest Riot";
+      line-height: 70px;
+      letter-spacing: 10px;
+      font-size: 60px;
+      animation-delay: 0.5s;
+    }
+    .Portfolio-Text > h1 > span {
+      color: #f1a868;
+    }
+    .Portfolio-Text > h1 .hello {
+      color: beige;
+      height: 50px;
+    }
+    .Portfolio-Text > button {
+      border: none;
+      background: none;
+      font-family: "Protest Riot";
+    }
+    .Portfolio-Text > button:focus {
+      cursor: pointer;
+      background-color: #fff;
+    }
+    .model-div {
+      width: 500px;
+      height: 370px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden; /* Prevents model from overflowing */
+      /* border: 2px solid rgba(255, 255, 255, 0.2); Optional styling */
+    }
+    #Contact {
+      animation-delay: 1s;
+      color: beige;
+      text-decoration: none;
+      font-size: 16px;
+      padding: 16px 36px;
+      border-radius: 10px;
+      backdrop-filter: blur(50px);
+      box-shadow: inset 0px 5px 10px 0px rgba(0, 255, 255, 0.7);
+      transition: all ease 0.2s;
+      border: 1px solid beige;
+    }
+    #Contact:hover {
+      transform: translateY(5px);
+      box-shadow: inset 0px 10px 20px 2px rgba(0, 255, 255, 0.7);
+      cursor: pointer;
+    }
+    .anim {
+      opacity: 0;
+      transform: translateY(30px);
+      animation: moveup 0.5s linear forwards;
+    }
+    @keyframes moveup {
+      100% {
+        opacity: 1;
+        transform: translateY(0px);
+      }
+    }
+    .animation {
+      opacity: 0;
+      transform: translateX(30px);
+      animation: moveleft 0.5s linear forwards;
+    }
+    @keyframes moveleft {
+      100% {
+        opacity: 1;
+        transform: translateX(0px);
+      }
+    }
+    .animationss {
+      opacity: 0;
+      transform: translateX(-30px);
+      animation: moveleft 0.5s linear forwards;
+    }
+    @keyframes moveleft {
+      100% {
+        opacity: 1;
+        transform: translateX(0px);
+      }
+    }
+    .Project {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+    .Project > h1 {
+      color: beige;
+      text-align: center;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      letter-spacing: 1px;
+      font-size: 50px;
+      margin-top: 110px;
+    }
+  
+    .Projects-Detail {
+      width: 38%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: none;
+      box-shadow: 0px 5px 10px 0px rgba(0, 255, 255, 0.7);
+      transition: all ease 0.2s;
+    }
+    .Projects-Detail > h4 {
+      color: beige;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      font-size: 30px;
+      letter-spacing: 5px;
+      margin-bottom: 20px;
+    }
+    .Projects-Detail > p {
+      color: #f0e0d2;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      width: 87%;
+      line-height: 20px;
+      font-size: 15px;
+      text-align: center;
+    }
+    .Projects-Detail .Lower-button {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 90%;
+    }
+    .Projects-Detail > div > button {
+      border: none;
+      background-color: transparent;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    .Projects-Detail > div > button .Project-buttons {
+      color: beige;
+      text-decoration: none;
+      font-size: 15px;
+      font-weight: 600;
+    }
+    .Projects-Detail > div > button .Project-button {
+      color: beige;
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: 600;
+    }
+    .project-icons {
+      font-size: 20px;
+    }
+    .Projects {
+      margin-top: 30px;
+      margin-bottom: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      background: none;
+    }
+    .iframe {
+      display: flex;
+      height: 300px;
+      width: 600px;
+      border: 5px solid rgb(15, 15, 73);
+      border-radius: 20px;
+    }
+  }

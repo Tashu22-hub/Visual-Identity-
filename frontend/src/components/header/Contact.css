@@ -1,0 +1,718 @@
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 600px) {
+    .animation {
+      opacity: 0;
+      transform: translateX(30px);
+      animation: moveleft 0.5s linear forwards;
+    }
+    @keyframes moveleft {
+      100% {
+        opacity: 1;
+        transform: translateX(0px);
+      }
+    }
+    .animationss {
+      opacity: 0;
+      transform: translateX(-30px);
+      animation: moveright 0.5s linear forwards;
+    }
+    @keyframes moveright {
+      100% {
+        opacity: 1;
+        transform: translateX(0px);
+      }
+    }
+    .Contact-section {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      justify-content: space-around;
+      margin-top: 50px;
+      margin-bottom: 100px;
+    }
+  
+    .Contact-section > img {
+      width: 300px;
+      margin: auto;
+      margin-top: 150px;
+    }
+    .Contact-form-section > h3 {
+      color: beige;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      font-size: 40px;
+      margin-bottom: 10px;
+    }
+    .Contact-form-section > form > input {
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      width: 300px;
+      height: 55px;
+      margin: 5px;
+      border: 1px solid beige;
+      border-radius: 20px;
+      background: transparent;
+      backdrop-filter: blur(10px);
+      padding-left: 20px;
+      outline: none;
+      color: beige;
+      font-size: 17px;
+      box-shadow: 0px 5px 10px 0px rgba(0, 255, 255, 0.7);
+      transition: all ease 0.2s;
+    }
+    .Contact-form-section > form > input:hover {
+      transform: translateY(-5px);
+      box-shadow: 0px 10px 20px 2px rgba(0, 255, 255, 0.7);
+    }
+    .Contact-form-section > form > input::placeholder {
+      color: beige;
+    }
+  
+    .Contact-form-section > form > textarea {
+      width: 300px;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      margin: 5px;
+      border: 1px solid beige;
+      border-radius: 20px;
+      background: transparent;
+      backdrop-filter: blur(10px);
+      padding-left: 20px;
+      outline: none;
+      color: beige;
+      padding-top: 15px;
+      font-size: 19px;
+      box-shadow: 0px 5px 10px 0px rgba(0, 255, 255, 0.7);
+      transition: all ease 0.2s;
+      cursor: pointer;
+    }
+    .Contact-form-section > form > textarea:hover {
+      transform: translateY(-5px);
+      box-shadow: 0px 10px 20px 2px rgba(0, 255, 255, 0.7);
+    }
+    .Contact-form-section > form > textarea::placeholder {
+      color: beige;
+    }
+  
+    .Contact-form-section > form > button {
+      border: none;
+      background: none;
+      margin-top: 20px;
+    }
+  
+    #Contactss {
+      animation-delay: 1s;
+      color: beige;
+      text-decoration: none;
+      font-size: 15px;
+      padding: 13px 26px;
+      border-radius: 10px;
+      backdrop-filter: blur(50px);
+      box-shadow: inset 0px 5px 10px 0px rgba(0, 255, 255, 0.7);
+      transition: all ease 0.2s;
+      border: 1px solid beige;
+    }
+    #Contactss:hover {
+      transform: translateY(5px);
+      box-shadow: inset 0px 10px 20px 2px rgba(0, 255, 255, 0.7);
+      cursor: pointer;
+    }
+  }
+  @media only screen and (min-width: 600px) {
+    .animation {
+      opacity: 0;
+      transform: translateX(30px);
+      animation: moveleft 0.5s linear forwards;
+    }
+    @keyframes moveleft {
+      100% {
+        opacity: 1;
+        transform: translateX(0px);
+      }
+    }
+    .animationss {
+      opacity: 0;
+      transform: translateX(-30px);
+      animation: moveright 0.5s linear forwards;
+    }
+    @keyframes moveright {
+      100% {
+        opacity: 1;
+        transform: translateX(0px);
+      }
+    }
+    .Contact-section {
+      display: flex;
+      flex-wrap: wrap;
+      text-align: center;
+      justify-content: space-around;
+      margin-bottom: 100px;
+    }
+  
+    .Contact-section > img {
+      width: 400px;
+      margin: auto;
+      margin-top: 80px;
+    }
+    .Contact-form-section > h3 {
+      color: beige;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      font-size: 45px;
+      margin-bottom: 10px;
+    }
+    .Contact-form-section > form > input {
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      width: 360px;
+      height: 60px;
+      margin: 9px;
+      border: 1px solid beige;
+      border-radius: 20px;
+      background: transparent;
+      backdrop-filter: blur(10px);
+      padding-left: 20px;
+      outline: none;
+      color: beige;
+      font-size: 17px;
+      box-shadow: 0px 5px 10px 0px rgba(0, 255, 255, 0.7);
+      transition: all ease 0.2s;
+    }
+    .Contact-form-section > form > input:hover {
+      transform: translateY(-5px);
+      box-shadow: 0px 10px 20px 2px rgba(0, 255, 255, 0.7);
+    }
+    .Contact-form-section > form > input::placeholder {
+      color: beige;
+    }
+  
+    .Contact-form-section > form > textarea {
+      width: 380px;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      margin: 10px;
+      border: 1px solid beige;
+      border-radius: 20px;
+      background: transparent;
+      backdrop-filter: blur(10px);
+      padding-left: 20px;
+      outline: none;
+      color: beige;
+      padding-top: 15px;
+      font-size: 19px;
+      box-shadow: 0px 5px 10px 0px rgba(0, 255, 255, 0.7);
+      transition: all ease 0.2s;
+    }
+    .Contact-form-section > form > textarea:hover {
+      transform: translateY(-5px);
+      box-shadow: 0px 10px 20px 2px rgba(0, 255, 255, 0.7);
+    }
+    .Contact-form-section > form > textarea::placeholder {
+      color: beige;
+    }
+  
+    .Contact-form-section > form > button {
+      border: none;
+      background: none;
+      margin-top: 25px;
+    }
+  
+    #Contactss {
+      animation-delay: 1s;
+      color: beige;
+      text-decoration: none;
+      font-size: 16px;
+      padding: 14px 28px;
+      border-radius: 10px;
+      backdrop-filter: blur(50px);
+      box-shadow: inset 0px 5px 10px 0px rgba(0, 255, 255, 0.7);
+      transition: all ease 0.2s;
+      border: 1px solid beige;
+    }
+    #Contactss:hover {
+      transform: translateY(5px);
+      box-shadow: inset 0px 10px 20px 2px rgba(0, 255, 255, 0.7);
+      cursor: pointer;
+    }
+  }
+  @media only screen and (min-width: 768px) {
+    .animation {
+      opacity: 0;
+      transform: translateX(30px);
+      animation: moveleft 0.5s linear forwards;
+    }
+    @keyframes moveleft {
+      100% {
+        opacity: 1;
+        transform: translateX(0px);
+      }
+    }
+    .animationss {
+      opacity: 0;
+      transform: translateX(-30px);
+      animation: moveright 0.5s linear forwards;
+    }
+    @keyframes moveright {
+      100% {
+        opacity: 1;
+        transform: translateX(0px);
+      }
+    }
+    .Contact-section {
+      display: flex;
+      flex-wrap: wrap;
+      text-align: center;
+      justify-content: space-around;
+      /* align-items: center; */
+      margin-top: 50px;
+      margin-bottom: 100px;
+    }
+  
+    .Contact-section > img {
+      width: 400px;
+      margin: auto;
+      margin-top: 60px;
+    }
+    .Contact-form-section > h3 {
+      color: beige;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      font-size: 45px;
+      margin-top: 60px;
+      margin-bottom: 10px;
+    }
+    .Contact-form-section > form > input {
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      width: 330px;
+      height: 70px;
+      margin: 10px;
+      border: 1px solid beige;
+      border-radius: 20px;
+      background: transparent;
+      backdrop-filter: blur(10px);
+      padding-left: 20px;
+      outline: none;
+      color: beige;
+      font-size: 17px;
+      box-shadow: 0px 5px 10px 0px rgba(0, 255, 255, 0.7);
+      transition: all ease 0.2s;
+    }
+    .Contact-form-section > form > input:hover {
+      transform: translateY(-5px);
+      box-shadow: 0px 10px 20px 2px rgba(0, 255, 255, 0.7);
+    }
+    .Contact-form-section > form > input::placeholder {
+      color: beige;
+    }
+  
+    .Contact-form-section > form > textarea {
+      width: 710px;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      margin: 10px;
+      border: 1px solid beige;
+      border-radius: 20px;
+      background: transparent;
+      backdrop-filter: blur(10px);
+      padding-left: 20px;
+      outline: none;
+      color: beige;
+      padding-top: 15px;
+      font-size: 19px;
+      box-shadow: 0px 5px 10px 0px rgba(0, 255, 255, 0.7);
+      transition: all ease 0.2s;
+    }
+    .Contact-form-section > form > textarea:hover {
+      transform: translateY(-5px);
+      box-shadow: 0px 10px 20px 2px rgba(0, 255, 255, 0.7);
+    }
+    .Contact-form-section > form > textarea::placeholder {
+      color: beige;
+    }
+  
+    .Contact-form-section > form > button {
+      border: none;
+      background: none;
+      margin-top: 25px;
+    }
+  
+    #Contactss {
+      animation-delay: 1s;
+      color: beige;
+      text-decoration: none;
+      font-size: 16px;
+      padding: 15px 30px;
+      border-radius: 10px;
+      backdrop-filter: blur(50px);
+      box-shadow: inset 0px 5px 10px 0px rgba(0, 255, 255, 0.7);
+      transition: all ease 0.2s;
+      border: 1px solid beige;
+    }
+    #Contactss:hover {
+      transform: translateY(5px);
+      box-shadow: inset 0px 10px 20px 2px rgba(0, 255, 255, 0.7);
+      cursor: pointer;
+    }
+  }
+  @media only screen and (min-width: 992px) {
+    .animation {
+      opacity: 0;
+      transform: translateX(30px);
+      animation: moveleft 0.5s linear forwards;
+    }
+    @keyframes moveleft {
+      100% {
+        opacity: 1;
+        transform: translateX(0px);
+      }
+    }
+    .animationss {
+      opacity: 0;
+      transform: translateX(-30px);
+      animation: moveright 0.5s linear forwards;
+    }
+    @keyframes moveright {
+      100% {
+        opacity: 1;
+        transform: translateX(0px);
+      }
+    }
+    .Contact-section {
+      display: flex;
+      flex-wrap: wrap;
+      text-align: center;
+      justify-content: space-around;
+      margin-top: 50px;
+      margin-bottom: 100px;
+    }
+  
+    .Contact-section > img {
+      width: 450px;
+      margin: auto;
+      margin-top: 60px;
+    }
+    .Contact-form-section > h3 {
+      color: beige;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      font-size: 50px;
+      margin-bottom: 10px;
+      margin-left: 20px;
+    }
+    .Contact-form-section > form > input {
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      width: 330px;
+      height: 70px;
+      margin: 10px;
+      border: 1px solid beige;
+      border-radius: 20px;
+      background: transparent;
+      backdrop-filter: blur(10px);
+      padding-left: 20px;
+      outline: none;
+      color: beige;
+      font-size: 17px;
+      box-shadow: 0px 5px 10px 0px rgba(0, 255, 255, 0.7);
+      transition: all ease 0.2s;
+    }
+    .Contact-form-section > form > input:hover {
+      transform: translateY(-5px);
+      box-shadow: 0px 10px 20px 2px rgba(0, 255, 255, 0.7);
+    }
+    .Contact-form-section > form > input::placeholder {
+      color: beige;
+    }
+  
+    .Contact-form-section > form > textarea {
+      width: 705px;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      margin: 10px;
+      border: 1px solid beige;
+      border-radius: 20px;
+      background: transparent;
+      backdrop-filter: blur(10px);
+      padding-left: 20px;
+      outline: none;
+      color: beige;
+      padding-top: 15px;
+      font-size: 19px;
+      box-shadow: 0px 5px 10px 0px rgba(0, 255, 255, 0.7);
+      transition: all ease 0.2s;
+    }
+    .Contact-form-section > form > textarea:hover {
+      transform: translateY(-5px);
+      box-shadow: 0px 10px 20px 2px rgba(0, 255, 255, 0.7);
+    }
+    .Contact-form-section > form > textarea::placeholder {
+      color: beige;
+    }
+  
+    .Contact-form-section > form > button {
+      border: none;
+      background: none;
+      margin-top: 40px;
+    }
+  
+    #Contactss {
+      animation-delay: 1s;
+      color: beige;
+      font-family: "Protest Riot";
+      text-decoration: none;
+      font-size: 18px;
+      padding: 20px 40px;
+      border-radius: 10px;
+  
+      border: 1px solid beige;
+      box-shadow: 0px 5px 10px 0px rgba(0, 255, 255, 0.7);
+      transition: all ease 0.2s;
+      cursor: pointer;
+    }
+    #Contactss:hover {
+      transform: translateY(-5px);
+      box-shadow: 0px 10px 20px 2px rgba(0, 255, 255, 0.7);
+    }
+  }
+  @media only screen and (min-width: 1200px) {
+    .animation {
+      opacity: 0;
+      transform: translateX(30px);
+      animation: moveleft 0.5s linear forwards;
+    }
+    @keyframes moveleft {
+      100% {
+        opacity: 1;
+        transform: translateX(0px);
+      }
+    }
+    .animationss {
+      opacity: 0;
+      transform: translateX(-30px);
+      animation: moveright 0.5s linear forwards;
+    }
+    @keyframes moveright {
+      100% {
+        opacity: 1;
+        transform: translateX(0px);
+      }
+    }
+    .Contact-section {
+      display: flex;
+      text-align: center;
+      justify-content: space-around;
+      margin-top: 50px;
+      margin-bottom: 100px;
+    }
+  
+    .Contact-section > img {
+      width: 450px;
+      margin-top: 150px;
+    }
+    .Contact-form-section{
+      margin-right: 70px;
+    }
+    .Contact-form-section > h3 {
+      color: beige;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      font-size: 50px;
+      margin-bottom: 10px;
+      margin-left: 20px;
+    }
+    .Contact-form-section > form > input {
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      width: 300px;
+      height: 65px;
+      margin: 8px;
+      border: 1px solid beige;
+      border-radius: 20px;
+      background: transparent;
+      backdrop-filter: blur(10px);
+      padding-left: 20px;
+      outline: none;
+      color: beige;
+      font-size: 17px;
+      box-shadow: 0px 5px 10px 0px rgba(0, 255, 255, 0.7);
+      transition: all ease 0.2s;
+    }
+    .Contact-form-section > form > input:hover {
+      transform: translateY(-5px);
+      box-shadow: 0px 10px 20px 2px rgba(0, 255, 255, 0.7);
+    }
+    .Contact-form-section > form > input::placeholder {
+      color: beige;
+    }
+  
+    .Contact-form-section > form > textarea {
+      width: 642px;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      margin: 10px;
+      border: 1px solid beige;
+      border-radius: 20px;
+      background: transparent;
+      backdrop-filter: blur(10px);
+      padding-left: 20px;
+      outline: none;
+      color: beige;
+      padding-top: 15px;
+      font-size: 19px;
+      box-shadow: 0px 5px 10px 0px rgba(0, 255, 255, 0.7);
+      transition: all ease 0.2s;
+    }
+    .Contact-form-section > form > textarea:hover {
+      transform: translateY(-5px);
+      box-shadow: 0px 10px 20px 2px rgba(0, 255, 255, 0.7);
+    }
+    .Contact-form-section > form > textarea::placeholder {
+      color: beige;
+    }
+  
+    .Contact-form-section > form > button {
+      border: none;
+      background: none;
+      margin-top: 40px;
+    }
+  
+    #Contactss {
+      animation-delay: 1s;
+      color: beige;
+      text-decoration: none;
+      font-size: 16px;
+      padding: 16px 36px;
+      border-radius: 10px;
+      backdrop-filter: blur(50px);
+      box-shadow: inset 0px 5px 10px 0px rgba(0, 255, 255, 0.7);
+      transition: all ease 0.2s;
+      border: 1px solid beige;
+    }
+    #Contactss:hover {
+      transform: translateY(5px);
+      box-shadow: inset 0px 10px 20px 2px rgba(0, 255, 255, 0.7);
+      cursor: pointer;
+    }
+  }
+  @media only screen and (min-width: 1500px) {
+    .animation {
+      opacity: 0;
+      transform: translateX(30px);
+      animation: moveleft 0.5s linear forwards;
+    }
+    @keyframes moveleft {
+      100% {
+        opacity: 1;
+        transform: translateX(0px);
+      }
+    }
+    .animationss {
+      opacity: 0;
+      transform: translateX(-30px);
+      animation: moveright 0.5s linear forwards;
+    }
+    @keyframes moveright {
+      100% {
+        opacity: 1;
+        transform: translateX(0px);
+      }
+    }
+    .Contact-section {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      text-align: left;
+      margin-bottom: 100px;
+      margin-top: 50px;
+    }
+  
+    .Contact-section > img {
+      height: 400px;
+      width: 400px;
+      margin-top: 150px;
+      margin-left: 0;
+      margin-right: 0;
+    }
+    .Contact-form-section > h3 {
+      color: beige;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      font-size: 40px;
+      margin-bottom: 10px;
+    }
+    .Contact-form-section > form > input {
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      width: 280px;
+      height: 70px;
+      margin: 10px;
+      border: 1px solid beige;
+      border-radius: 20px;
+      background: transparent;
+      backdrop-filter: blur(10px);
+      padding-left: 20px;
+      outline: none;
+      color: beige;
+      font-size: 17px;
+      box-shadow: 0px 5px 10px 0px rgba(0, 255, 255, 0.7);
+      transition: all ease 0.2s;
+    }
+    .Contact-form-section > form > input:hover {
+      transform: translateY(-5px);
+      box-shadow: 0px 10px 20px 2px rgba(0, 255, 255, 0.7);
+    }
+    .Contact-form-section > form > input::placeholder {
+      color: beige;
+    }
+  
+    .Contact-form-section > form > textarea {
+      width: 605px;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      margin: 10px;
+      border: 1px solid beige;
+      border-radius: 20px;
+      background: transparent;
+      backdrop-filter: blur(10px);
+      padding-left: 20px;
+      outline: none;
+      color: beige;
+      padding-top: 15px;
+      font-size: 19px;
+      box-shadow: 0px 5px 10px 0px rgba(0, 255, 255, 0.7);
+      transition: all ease 0.2s;
+    }
+    .Contact-form-section > form > textarea:hover {
+      transform: translateY(-5px);
+      box-shadow: 0px 10px 20px 2px rgba(0, 255, 255, 0.7);
+    }
+    .Contact-form-section > form > textarea::placeholder {
+      color: beige;
+    }
+  
+    .Contact-form-section > form > button {
+      border: none;
+      background: none;
+      margin-top: 30px;
+      margin-left: 16px;
+    }
+  
+    #Contactss {
+      animation-delay: 1s;
+      color: beige;
+      text-decoration: none;
+      font-size: 16px;
+      padding: 16px 36px;
+      border-radius: 10px;
+      backdrop-filter: blur(50px);
+      box-shadow: inset 0px 5px 10px 0px rgba(0, 255, 255, 0.7);
+      transition: all ease 0.2s;
+      border: 1px solid beige;
+    }
+    #Contactss:hover {
+      transform: translateY(5px);
+      box-shadow: inset 0px 10px 20px 2px rgba(0, 255, 255, 0.7);
+      cursor: pointer;
+    }
+  }
