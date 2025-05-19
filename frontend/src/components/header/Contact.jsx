@@ -22,7 +22,7 @@ function Contactme() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post("http://localhost:5000/contact", formData);
+      await axios.post("https://visual-identity-backend.onrender.com/contact", formData);
       toast.success("Message sent successfully!");
       setFormData({ firstName: "", lastName: "", email: "", phoneNumber: "", message: "" });
     } catch (error) {

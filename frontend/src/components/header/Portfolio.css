@@ -371,7 +371,7 @@
       flex-direction: row;
       justify-content: space-around;
       align-items: center;
-      margin: 0px 20px;
+      margin-top:60px;
     }
     .my-img {
       border-radius: 50%;
@@ -552,7 +552,8 @@
       flex-direction: row;
       justify-content: space-around; 
       align-items: center;
-      margin-top: 30px;
+      margin-top: 80px;
+      padding-top: 30px;
     }
   
     .my-img {

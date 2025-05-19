@@ -9,7 +9,12 @@ import dotenv from "dotenv";
 dotenv.config();
 const app = express();
 app.use(express.json());
-app.use(cors());
+
+app.use(cors({
+  origin: ['https://visual-identity-xi.vercel.app' , 'http://localhost:4000/'],
+  credentials: true, // Only if you're using cookies or authorization headers
+}));
+
 
 // Connect to MongoDB Atlas
 mongoose.connect(process.env.MONGO_URI)

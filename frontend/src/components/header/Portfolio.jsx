@@ -164,7 +164,7 @@ function Portfolio() {
                   <Link
                     className="Project-buttons"
                     target="_blank"
-                    to="https://github.com/kashishprajapati123/Portfolio-/tree/main/src"
+                    to="https://github.com/Tashu22-hub/Visual-Identity-"
                   >
                     React
                   </Link>
@@ -173,7 +173,7 @@ function Portfolio() {
                   <Link
                     className="Project-buttons"
                     target="_blank"
-                    to="https://github.com/kashishprajapati123/Portfolio-/tree/main/src"
+                    to="https://github.com/Tashu22-hub/Visual-Identity-"
                   >
                     CSS
                   </Link>
@@ -184,7 +184,7 @@ function Portfolio() {
                   <Link
                     className="Project-button"
                     target="_blank"
-                    to="https://github.com/kashishprajapati123/Portfolio-"
+                    to="https://github.com/Tashu22-hub/Visual-Identity-"
                   >
                     Code <FaGithub className="project-icons" />
                   </Link>
@@ -193,7 +193,7 @@ function Portfolio() {
                   <Link
                     className="Project-button"
                     target="_blank"
-                    to="https://meripahchan.netlify.app/"
+                    to="https://visual-identity-xi.vercel.app/"
                   >
                     Live Demo <HiExternalLink className="project-icons" />
                   </Link>
