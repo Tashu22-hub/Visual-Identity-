@@ -1,5 +1,5 @@
 // import React from 'react'
-import { Link } from "react-router-dom";
+
 import "./About.css";
 import { SiOnlyoffice } from "react-icons/si";
 import { MdOutlineIncompleteCircle } from "react-icons/md";
@@ -51,7 +51,7 @@ function Aboutme() {
               <a
                 id="CV"
                 className="C-V"
-                href="/TashuTnp.pdf"
+                href="/TashuResume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
               >

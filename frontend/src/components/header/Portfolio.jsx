@@ -18,7 +18,7 @@ import * as THREE from "three"; // for playing animation of model
 import { Html, useProgress } from "@react-three/drei";
 import travelStoryimg from '../../../public/TravelStory.jpg';
 import portfolio from '../../../public/portfolio.png';
-import pokemon from '../../../public/pokemon.png';
+import dental from '../../../public/dental.png';
 import bridgeimg from '../../../public/bridge.png';
 
 
@@ -253,7 +253,7 @@ function Portfolio() {
             </div>
             <img className="iframe animation" src={travelStoryimg} alt="story Preview" />
           </div>
-            {/* captureMOments Project */}
+            {/* Chat-Application Project */}
           <div className="Projects">
             <div className="Projects-Detail animationss">
               <h4>BridgeOn</h4>
@@ -304,20 +304,20 @@ function Portfolio() {
             <img className="iframe animation" src={bridgeimg} alt="story Preview" />
           </div>
 
-          {/* Pokémon Project */}
+          {/*AI-Dental-X-Ray Project */}
           <div className="Projects">
-            <img className="iframe animationss" src={pokemon} alt="Pokémon Website Preview" />
+            <img className="iframe animationss" src={dental} alt="Pokémon Website Preview" />
             <div className="Projects-Detail animation">
-              <h4>Pokémon Website</h4>
+              <h4>AI Dental-X-Ray</h4>
               <p>
-                A React-based single-page application that fetches and displays Pokémon details using APIs.
+               AI Dental Analyzer (ADA) is a full-stack web application designed to analyze dental X-ray images (DICOM/RVG format). It uses computer vision to detect pathologies and leverages GPT-4 to generate diagnostic reports. This tool helps automate and support dental professionals in preliminary X-ray interpretation.
               </p>
               <div>
                 <button>
                   <Link
                     className="Project-buttons"
                     target="_blank"
-                    to="https://pokeapi.co/api/v2/pokemon"
+                    to="https://github.com/Tashu22-hub/X-ray-dental"
                   >
                     React API
                   </Link>
@@ -326,9 +326,9 @@ function Portfolio() {
                   <Link
                     className="Project-buttons"
                     target="_blank"
-                    to="https://github.com/Tashu22-hub/API_Pok-mon-/tree/main/src"
+                    to="https://github.com/Tashu22-hub/X-ray-dental"
                   >
-                    Tailwind CSS
+                     CSS
                   </Link>
                 </button>
               </div>
@@ -337,7 +337,7 @@ function Portfolio() {
                   <Link
                     className="Project-button"
                     target="_blank"
-                    to="https://github.com/Tashu22-hub/API_Pok-mon-"
+                    to="https://github.com/Tashu22-hub/X-ray-dental"
                   >
                     Code <FaGithub className="project-icons" />
                   </Link>
@@ -346,7 +346,7 @@ function Portfolio() {
                   <Link
                     className="Project-button"
                     target="_blank"
-                    to="https://pokemonpoke.netlify.app/"
+                    to="https://visual-identity-xi.vercel.app/"
                   >
                     Live Demo <HiExternalLink className="project-icons" />
                   </Link>
