@@ -24,6 +24,9 @@ Welcome to my **interactive 3D developer portfolio**, built using modern web tec
 - **Vercel**
 
 ---
+Commands :
+frontend:npm run dev
+backend:npm start
 
 Features
 ![main Screen](./ss/mainS.png)
