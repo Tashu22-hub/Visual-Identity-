@@ -350,7 +350,7 @@ function Portfolio() {
                   >
                     Live Demo <HiExternalLink className="project-icons" />
                   </Link>
-                </button>
+                </button> 
               </div>
             </div>
           </div>
