@@ -346,7 +346,7 @@ function Portfolio() {
                   <Link
                     className="Project-button"
                     target="_blank"
-                    to="https://visual-identity-xi.vercel.app/"
+                    to="https://x-ray-dental-frontend.vercel.app/"
                   >
                     Live Demo <HiExternalLink className="project-icons" />
                   </Link>
